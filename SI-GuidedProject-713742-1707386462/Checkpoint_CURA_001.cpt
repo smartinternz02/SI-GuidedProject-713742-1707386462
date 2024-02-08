@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_CURA_001</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/CURA_DATA_FILES/CURA_Test _Data_CORRECT _INFO</source-url>
+   </source-info>
+   <taken-date>2024-01-14T13:21:36.523+05:30</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "John Doe",
+      "checked": false
+    },
+    {
+      "value": "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

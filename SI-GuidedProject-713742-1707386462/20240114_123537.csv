@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_TEST_SUITE_001,Chrome 120.0.0.0,,,14-01-2024 12:35:41,14-01-2024 12:36:11,29.683s,PASSED
+,,,,,,,
+Test Cases/CURA_PROJECT/CURA_TEST_CASE_001,Chrome 120.0.0.0,,,14-01-2024 12:35:41,14-01-2024 12:36:11,29.415s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 120.0.0.0,,,14-01-2024 12:35:41,14-01-2024 12:35:42,0.395s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,14-01-2024 12:35:42,14-01-2024 12:35:44,1.947s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,14-01-2024 12:35:44,14-01-2024 12:35:53,9.337s,PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,14-01-2024 12:35:53,14-01-2024 12:35:53,0.144s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 120.0.0.0,,,14-01-2024 12:35:53,14-01-2024 12:35:54,0.812s,PASSED
+delay(3),Chrome 120.0.0.0,,,14-01-2024 12:35:54,14-01-2024 12:35:57,3.032s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/input_form-control""))",Chrome 120.0.0.0,,,14-01-2024 12:35:57,14-01-2024 12:35:57,0.348s,PASSED
+"setText(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/input_username""), username)",Chrome 120.0.0.0,,,14-01-2024 12:35:57,14-01-2024 12:35:58,0.680s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/spandemo_password_label""))",Chrome 120.0.0.0,,,14-01-2024 12:35:58,14-01-2024 12:35:58,0.338s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/input_password""), password)",Chrome 120.0.0.0,,,14-01-2024 12:35:58,14-01-2024 12:35:59,0.388s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,14-01-2024 12:35:59,14-01-2024 12:36:00,1.430s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 120.0.0.0,,,14-01-2024 12:36:00,14-01-2024 12:36:01,1.061s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/input_programs""))",Chrome 120.0.0.0,,,14-01-2024 12:36:01,14-01-2024 12:36:02,0.343s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar""))",Chrome 120.0.0.0,,,14-01-2024 12:36:02,14-01-2024 12:36:02,0.353s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/td_25""))",Chrome 120.0.0.0,,,14-01-2024 12:36:02,14-01-2024 12:36:02,0.451s,PASSED
+"setText(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/textarea_comment""), ""FOR CONSULTATION"")",Chrome 120.0.0.0,,,14-01-2024 12:36:02,14-01-2024 12:36:03,0.830s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 120.0.0.0,,,14-01-2024 12:36:03,14-01-2024 12:36:04,0.655s,PASSED
+delay(3),Chrome 120.0.0.0,,,14-01-2024 12:36:04,14-01-2024 12:36:07,3.007s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,14-01-2024 12:36:07,14-01-2024 12:36:07,0.369s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/a_History""))",Chrome 120.0.0.0,,,14-01-2024 12:36:07,14-01-2024 12:36:08,0.892s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.0.0,,,14-01-2024 12:36:08,14-01-2024 12:36:09,0.435s,PASSED
+"click(findTestObject(""Object Repository/CURA_OR_001/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.0.0,,,14-01-2024 12:36:09,14-01-2024 12:36:10,1.467s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,14-01-2024 12:36:10,14-01-2024 12:36:11,0.467s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 120.0.0.0,,,14-01-2024 12:36:11,14-01-2024 12:36:11,0.047s,ERROR
